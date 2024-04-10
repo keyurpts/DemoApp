@@ -1,0 +1,15 @@
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.exe
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.deps.json
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.runtimeconfig.json
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.runtimeconfig.dev.json
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.dll
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.pdb
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.Form1.resources
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.csproj.GenerateResource.cache
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.AssemblyInfoInputs.cache
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.AssemblyInfo.cs
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.csproj.CoreCompileInputs.cache
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.dll
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.pdb
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.genruntimeconfig.cache
