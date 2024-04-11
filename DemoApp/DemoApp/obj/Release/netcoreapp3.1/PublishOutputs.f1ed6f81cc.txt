@@ -1,0 +1,5 @@
+C:\Users\PTS-PC-94_USR02\Desktop\deploy\DemoApp\DemoApp.exe
+C:\Users\PTS-PC-94_USR02\Desktop\deploy\DemoApp\DemoApp.dll
+C:\Users\PTS-PC-94_USR02\Desktop\deploy\DemoApp\DemoApp.deps.json
+C:\Users\PTS-PC-94_USR02\Desktop\deploy\DemoApp\DemoApp.runtimeconfig.json
+C:\Users\PTS-PC-94_USR02\Desktop\deploy\DemoApp\DemoApp.pdb
