@@ -13,4 +13,3 @@ D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.csproj
 D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.dll
 D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.pdb
 D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.genruntimeconfig.cache
-D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.csproj.AssemblyReference.cache
