@@ -21,35 +21,35 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
 # - task: VSBuild@1
 #   inputs:
 #     solution: '$(solution)'
-#     msbuildArgs: '/target:publish'
 #     platform: '$(buildPlatform)'
 #     configuration: '$(buildConfiguration)'
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    msbuildArgs: '/target:publish'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
 
 # - task: VSTest@2
 #   inputs:
 #     platform: '$(buildPlatform)'
 #     configuration: '$(buildConfiguration)'
 
-- task: CopyFiles@2
-  inputs:
-    SourceFolder: 'DemoApp\\DemoApp\\bin\\Release'
-    Contents: '**'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
-
 # - task: CopyFiles@2
 #   inputs:
-#     SourceFolder: 'DemoApp/DemoApp/bin/publish/app.publish'
-#     Contents: '**\*'
+#     SourceFolder: 'DemoApp\\DemoApp\\bin\\Release'
+#     Contents: '**'
 #     TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: 'DemoApp\\DemoApp\\bin\\Release\\app.publish'
+    Contents: '**\*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
   inputs:
