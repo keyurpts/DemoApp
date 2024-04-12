@@ -47,7 +47,7 @@ steps:
 
 # - task: CopyFiles@2
 #   inputs:
-#     SourceFolder: 'DemoApp/DemoApp/bin/publish/app.publish'
+#     SourceFolder: 'DemoApp\\DemoApp\\bin\\Release\\app.publish'
 #     Contents: '**\*'
 #     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
