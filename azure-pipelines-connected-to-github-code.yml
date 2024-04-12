@@ -27,6 +27,13 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+# - task: VSBuild@1
+#   inputs:
+#     solution: '$(solution)'
+#     msbuildArgs: '/target:publish'
+#     platform: '$(buildPlatform)'
+#     configuration: '$(buildConfiguration)'
+
 # - task: VSTest@2
 #   inputs:
 #     platform: '$(buildPlatform)'
@@ -38,8 +45,15 @@ steps:
     Contents: '**'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
+# - task: CopyFiles@2
+#   inputs:
+#     SourceFolder: 'DemoApp/DemoApp/bin/$(buildConfiguration)/app.publish'
+#     Contents: '**\*'
+#     TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+
