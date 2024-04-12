@@ -1,0 +1,5 @@
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\publish\DemoApp.exe
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\publish\DemoApp.dll
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\publish\DemoApp.deps.json
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\publish\DemoApp.runtimeconfig.json
+D:\TrialDemoApp\DemoApp\DemoApp\DemoApp\bin\publish\DemoApp.pdb
