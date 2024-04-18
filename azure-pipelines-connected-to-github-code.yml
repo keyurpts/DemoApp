@@ -75,7 +75,8 @@ steps:
           # Update the ClickOnce manifest (.application file)
           [xml]$manifestXml = Get-Content -Path $manifestPath
           # $manifestXml.Assembly.Description = "Your Application Description"
-          $manifestXml.EntryPoint.Identity = $windowTitle
+          # $manifestXml.EntryPoint.Identity = $windowTitle
+          $manifestXml.assemblyIdentity.SetAttribute("name", $windowTitle)
           $manifestXml.Save($manifestPath)
       
           Write-Host "Window title updated to: $windowTitle"
