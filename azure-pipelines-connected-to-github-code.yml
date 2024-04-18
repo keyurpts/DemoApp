@@ -85,6 +85,29 @@ steps:
       #     Write-Host "Manifest file not found."
       # }
 
+      # # Fetch environment-specific window title from a variable or parameter
+      # $windowTitle = "Yashwant3"
+
+      # # Path to the ClickOnce application manifest (.application file)
+      # $manifestPath = "DemoApp.application"
+
+      # # Check if the manifest file exists
+      # if (Test-Path $manifestPath) {
+      #     # Load the ClickOnce manifest XML
+      #     [xml]$manifestXml = Get-Content -Path $manifestPath
+    
+      #     # Update the name attribute of the assemblyIdentity element to set the window title
+      #     $manifestXml.assemblyIdentity.SetAttribute("name", $windowTitle)
+    
+      #     # Save the updated ClickOnce manifest XML
+      #     $manifestXml.Save($manifestPath)
+
+      #     Write-Host "Window title updated to: $windowTitle"
+      # }
+      # else {
+      #     Write-Host "Manifest file not found."
+      # }
+
       # Fetch environment-specific window title from a variable or parameter
       $windowTitle = "Yashwant3"
 
@@ -96,13 +119,19 @@ steps:
           # Load the ClickOnce manifest XML
           [xml]$manifestXml = Get-Content -Path $manifestPath
     
-          # Update the name attribute of the assemblyIdentity element to set the window title
-          $manifestXml.assemblyIdentity.SetAttribute("name", $windowTitle)
+          # Check if manifestXml is null
+          if ($null -ne $manifestXml) {
+              # Update the name attribute of the assemblyIdentity element to set the window title
+              $manifestXml.assemblyIdentity.SetAttribute("name", $windowTitle)
     
-          # Save the updated ClickOnce manifest XML
-          $manifestXml.Save($manifestPath)
+              # Save the updated ClickOnce manifest XML
+              $manifestXml.Save($manifestPath)
 
-          Write-Host "Window title updated to: $windowTitle"
+              Write-Host "Window title updated to: $windowTitle"
+          }
+          else {
+              Write-Host "Failed to load manifest XML. Check the manifest file content and format."
+          }
       }
       else {
           Write-Host "Manifest file not found."
