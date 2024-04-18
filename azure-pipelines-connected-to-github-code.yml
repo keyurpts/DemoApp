@@ -74,7 +74,7 @@ steps:
       if (Test-Path $manifestPath) {
           # Update the ClickOnce manifest (.application file)
           [xml]$manifestXml = Get-Content -Path $manifestPath
-          $manifestXml.Assembly.Description = "Your Application Description"
+          # $manifestXml.Assembly.Description = "Your Application Description"
           $manifestXml.EntryPoint.Identity = $windowTitle
           $manifestXml.Save($manifestPath)
       
